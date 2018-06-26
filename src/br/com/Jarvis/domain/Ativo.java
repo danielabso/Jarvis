@@ -2,13 +2,12 @@ package br.com.Jarvis.domain;
 
 public class Ativo {
 	private Long idativo;
-	private String modelo;
+	private String nome;
 	private String serialouserie;
 	private String criadopor;
 	private String criadoem;
 	private String atualizadopor;
 	private String atualizadoem;
-	private String estoque;
 	private String situacao;
 	private String disponibilizadopor;
 	private String disponibilizadoem;
@@ -34,12 +33,12 @@ public class Ativo {
 		this.idativo = idativo;
 	}
 
-	public String getModelo() {
-		return modelo;
+	public String getNome() {
+		return nome;
 	}
 
-	public void setModelo(String modelo) {
-		this.modelo = modelo;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public String getSerialouserie() {
@@ -80,14 +79,6 @@ public class Ativo {
 
 	public void setAtualizadoem(String atualizadoem) {
 		this.atualizadoem = atualizadoem;
-	}
-
-	public String getEstoque() {
-		return estoque;
-	}
-
-	public void setEstoque(String estoque) {
-		this.estoque = estoque;
 	}
 
 	public String getSituacao() {
